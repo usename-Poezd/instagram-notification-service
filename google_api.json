@@ -1,0 +1,13 @@
+{
+	"type": "service_account",
+	"project_id": "smmtouch",
+	"private_key_id": "74f01239021c5f8bf0ae3b046834303b8fe17d4f",
+	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrD/BE22helM/Q\nzbflgV5RD08L1RmAn1lWdpD3vAoFMMId64ybxpEfTPAblFBkHE9DlXyZUlt2++gV\nLaY/lCpRyAYdwmu/qMnfL/sYTeQYJW3PON7G5Yogs0ossQJ+AaZlk6kzmxW5til4\nu8p/FdjVZzvCYjTjJITYoq4+uKPgGa17BKcFpzyTKasWEzFft6Aa1vy+VH6pVcqf\nhs6V4Go6s5YMfruu4bokiNO39nkWNQX1YmA8KyZ5/8TmMsgL/GrtXMsgivipD5Sf\nleMa00xPshJD2DHEvyKXzxssFhJnpwdjv04I+543Sz2jKieF331qLETdpZzszfv9\nPDVOjzDRAgMBAAECggEAAaA31YFr7FlaPHE2ZGskQBjpL/VIFhd7WLbIkHLJ57w5\nXc+BgCer9RQ88iEER9/glEWK/c5+543avGEUli5TcDdV8PmKQ49TqwFr/YAcTsaW\nS6Jga2SaMDyXb2yFaiZlOMxuqjqmp78bPE0jMtJhKEAXHP4/vxPudSnwqqvfqW9r\nWcpoxh7TKNo5nVLrQ/r9vLasc3Awl7AmHPdFT1qDOipDvvXBjmEUjiew+iDotAWJ\nXtLGFFhu3cOmRbPPf/f/Sd6vrLX3fiqRw9JJtsBTSr3xKPN4plKDQ2jKDIu1AvHI\nBZhxHV7qPwGLU59IMNZODrSg86XdWxot+wlW1uHgpQKBgQDR6cmmfDTT8KWMwfg0\n9YDfrIeZmv/z1Ob4eDytW4bXPcjXVlrBZykPm4NWADFvT3Cq3r1S20d2JlQ3smUh\nhJvwYoPTovvimXSjgU3DGUv07z+LiWrF33832sVpBuCPfCMGjdA0S1eU7+PyWV+S\nCtSJNJfUfqdKlM5MBBsAfow5lQKBgQDQnoZRaly7SZmMHW43xS+LHAR9rIqlzK+4\njUMAE+wZ8/s8UnJDhtqzvpGCbh40AR3RpFiemSUu7prviGcol/5eF5sUmGfbKXUD\nPxwIRSYnoXaLWgqYw1mZA4ATrOt7KplYJblhatgjrFPxnDzEm2Fc6xImi079nvPd\n6ixl4NijTQKBgB4eGAOeEIpUHbybW/xlOQ9elroQRib65gTCY5pP5oHdaIKU7kKP\nhZGqs2ZUcsNQt46clLddpNwr1auEGgR8HU+ZIubrnI4/jD+lXr3eVEqZRRnFJp+r\nWHpwFiDijrenjPL0x+mo4bEJ1j/AWPkAOsxQ0nP3lBMcVJkNgb5Jad8dAoGBAL8f\nzHyATi6DUjnsqJJNg64VYAPm9CrLqF0ShcRnfBGW1Z/BBM/alzi/KT3uNpt8Pl5X\nC51ZPpiNnsI+HAwzm6WGSNyId/VwOLRduAfXmgoKwbkPJ9AmgEpPy6G69Q2kzFHW\nVczq/tNHyKv8cCvLElr3PWy0igyO+GphZIV9hdutAoGAGHnESY8Aplns0sFJ6FHj\n7483X/s26pt4nD08FPTALwGhEYerDps/8XD69C4fh49jJ+8wRQbBwZur4RtSWyQ1\nfFTWPx9pcbJ8ijRK7UkZ7KyQO/A5hCjGxDLHtPRJHz9nSPyMQ0IDiGK2ljrF6TNY\nP3MUHHkaqIHpU/xkMiBRTJ0=\n-----END PRIVATE KEY-----\n",
+	"client_email": "smmtouch@smmtouch.iam.gserviceaccount.com",
+	"client_id": "113306777018780355436",
+	"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	"token_uri": "https://oauth2.googleapis.com/token",
+	"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smmtouch%40smmtouch.iam.gserviceaccount.com"
+  }
+  

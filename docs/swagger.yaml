@@ -1,0 +1,166 @@
+basePath: /
+definitions:
+  errors.ErrorResponse:
+    properties:
+      code:
+        type: integer
+      message:
+        type: string
+    type: object
+  errors.ValidationError:
+    properties:
+      failedField:
+        type: string
+      tag:
+        type: string
+      value:
+        type: string
+    type: object
+  errors.ValidationErrorResponse:
+    properties:
+      code:
+        type: integer
+      errors:
+        items:
+          $ref: '#/definitions/errors.ValidationError'
+        type: array
+      message:
+        type: string
+    type: object
+  github.com_SmmTouch-com_instagram-notification-service_internal_handlers_http.SendRequest:
+    properties:
+      amount:
+        type: integer
+      currency:
+        type: string
+      lang:
+        type: string
+      order_id:
+        type: integer
+      quantity:
+        type: integer
+      status:
+        type: string
+      tag:
+        type: string
+      username:
+        type: string
+    required:
+    - amount
+    - currency
+    - lang
+    - order_id
+    - quantity
+    - status
+    - tag
+    - username
+    type: object
+  internal_handlers_http.SendRequest:
+    properties:
+      amount:
+        type: integer
+      currency:
+        type: string
+      lang:
+        type: string
+      order_id:
+        type: integer
+      quantity:
+        type: integer
+      status:
+        type: string
+      tag:
+        type: string
+      username:
+        type: string
+    required:
+    - amount
+    - currency
+    - lang
+    - order_id
+    - quantity
+    - status
+    - tag
+    - username
+    type: object
+host: localhost:8000
+info:
+  contact: {}
+  description: REST API for Zeus Instagram DM spam
+  title: Zeus Instagram DM API
+  version: "1.0"
+paths:
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: Ping
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: pong
+          schema:
+            type: string
+        "400":
+          description: error
+          schema:
+            type: string
+        "401":
+          description: error
+          schema:
+            type: string
+        "500":
+          description: error
+          schema:
+            type: string
+        "503":
+          description: error
+          schema:
+            type: string
+      summary: Ping
+      tags:
+      - service
+  /send:
+    post:
+      consumes:
+      - application/json
+      description: Send message
+      parameters:
+      - description: send data
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/github.com_SmmTouch-com_instagram-notification-service_internal_handlers_http.SendRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/errors.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/errors.ErrorResponse'
+        "422":
+          description: Unprocessable Entity
+          schema:
+            $ref: '#/definitions/errors.ValidationErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/errors.ErrorResponse'
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/errors.ErrorResponse'
+      summary: Send message
+      tags:
+      - zeus
+swagger: "2.0"
